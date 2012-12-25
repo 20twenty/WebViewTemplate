@@ -1,0 +1,3 @@
+ant debug
+adb install -r bin/MainActivity-debug.apk
+adb shell "am start -a android,intent.action.MAIN -n com.liketivist.webviewtemplate/.MainActivity"
