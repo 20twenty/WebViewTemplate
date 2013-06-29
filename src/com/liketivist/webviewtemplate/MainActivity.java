@@ -48,7 +48,7 @@ public class MainActivity extends Activity {
    protected void onResume() {
       // TODO Auto-generated method stub
       super.onResume();
-      //mWebView.loadUrl("http://www.html5test.com/");
+      //mWebView.loadUrl("http://www.othervenues.com/");
       //mWebView.loadUrl("http://html5.litten.com/how-to-drag-and-drop-on-an-html5-canvas/");
       mWebView.loadUrl("file:///android_asset/test.html");
    }
